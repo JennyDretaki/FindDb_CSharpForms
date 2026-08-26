@@ -3,13 +3,13 @@
     public static class DatabaseSettings
     {
         public static string DevConnectionString =
-            @"Server=LAWPRODSRVNEW;
+            @"Server=Server;
           Database=DEV;
           Trusted_Connection=True;
           TrustServerCertificate=True;";
 
         public static string CtCollectConnectionString =
-            @"Server=LAWPRODSRVNEW;
+            @"Server=Server;
           Database=CTCOLLECT;
           Trusted_Connection=True;
           TrustServerCertificate=True;";
